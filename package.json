@@ -30,7 +30,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@fullcalendar/core": "^6.1.8",
-    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.19",
     "@fullcalendar/google-calendar": "^6.0.2",
     "@fullcalendar/interaction": "^6.0.1",
     "@fullcalendar/react": "^6.1.8",
