@@ -18,7 +18,7 @@ import smiLogo from "../../../assets/images/service-mesh-icons/service-mesh-inte
 import appmeshLogo from "../../../assets/images/service-mesh-icons/aws-app-mesh.svg";
 import ciliumLogo from "../../../assets/images/service-mesh-icons/cilium.svg";
 import wasm from "../../../assets/images/webassembly/webssembly_icon.svg";
-import recognitionLogo from "../../../assets/images/recognition-program/recognition-program.png";
+import recognitionLogo from "../../../assets/images/recognition-program/recognition-program.webp";
 import kanvasLogo from "../../../assets/images/kanvas/icon-only/kanvas-icon-color.svg";
 import sistent from "../../../assets/images/sistent/icon-only/sistent-icon-color.svg";
 
@@ -31,8 +31,8 @@ export const repo_data = [
         image: five,
         site: "https://layer5.io/",
         language: "Gatsby",
-        maintainers_name: ["Vacant"],
-        link: ["#"],
+        maintainers_name: ["Rajesh Nagarajan"],
+        link: ["https://layer5.io/community/members/rajesh-nagarajan"],
         repository: "https://github.com/layer5io/layer5",
       },
       {
@@ -40,8 +40,8 @@ export const repo_data = [
         image: meshery,
         site: "https://meshery.io",
         language: "Jekyll",
-        maintainers_name: ["Vivek Vishal"],
-        link: ["https://layer5.io/community/members/vivek-vishal"],
+        maintainers_name: ["Vacant"],
+        link: [""],
         repository: "https://github.com/meshery/meshery.io",
       },
       {
@@ -49,8 +49,8 @@ export const repo_data = [
         image: meshery,
         site: "http://docs.meshery.io",
         language: "Jekyll",
-        maintainers_name: ["Vivek Vishal"],
-        link: ["https://layer5.io/community/members/vivek-vishal"],
+        maintainers_name: ["Vacant"],
+        link: [""],
         repository: "https://github.com/meshery/meshery/tree/master/docs",
       },
       {
@@ -58,10 +58,11 @@ export const repo_data = [
         image: meshery,
         site: "https://github.com/meshery/meshery/tree/master/ui",
         language: "NextJS, React.js, MaterialUI and Billboard.js",
-        maintainers_name: ["Antonette Caldwell", "Aabid Sofi"],
+        maintainers_name: ["Antonette Caldwell", "Aabid Sofi", "Ian Whitney"],
         link: [
           "https://layer5.io/community/members/antonette-caldwell",
           "https://layer5.io/community/members/aabid-sofi",
+          "https://layer5.io/community/members/ian-whitney"
         ],
         repository: "https://github.com/meshery/meshery/tree/master/ui",
       },
@@ -101,8 +102,8 @@ export const repo_data = [
         image: five,
         site: "https://discuss.layer5.io",
         language: "Discourse",
-        maintainers_name: ["Vivek Vishal"],
-        link: ["https://layer5.io/community/members/vivek-vishal"],
+        maintainers_name: ["Vacant"],
+        link: [""],
         repository: " https://discuss.layer5.io",
       },
       {
@@ -164,9 +165,57 @@ export const repo_data = [
         image: five,
         site: "https://docs.layer5.io/",
         language: "Hugo",
-        maintainers_name: ["Zihan Kuang"],
-        link: ["https://layer5.io/community/members/zihan-kuang"],
+        maintainers_name: ["Vacant"],
+        link: ["#"],
         repository: "https://github.com/layer5io/docs",
+      },
+      {
+        project: "Academy Theme",
+        image: five,
+        site: "https://github.com/layer5io/academy-theme",
+        language: "Hugo",
+        maintainers_name: ["Aabid Sofi"],
+        link: [
+          "#",
+          "https://layer5.io/community/members/aabid-sofi"
+        ],
+        repository: "https://github.com/layer5io/academy-theme",
+      },
+      {
+        project: "Academy Build",
+        image: five,
+        site: "https://github.com/layer5io/academy-build",
+        language: "Hugo build / GitHub Action",
+        maintainers_name: ["Aabid Sofi"],
+        link: ["https://layer5.io/community/members/aabid-sofi"],
+        repository: "https://github.com/layer5io/academy-build",
+      },
+      {
+        project: "Academy Example",
+        image: five,
+        site: "https://github.com/layer5io/academy-example",
+        language: "Hugo",
+        maintainers_name: ["Vacant"],
+        link: ["#"],
+        repository: "https://github.com/layer5io/academy-example",
+      },
+      {
+        project: "Exoscale Academy",
+        image: five,
+        site: "https://github.com/layer5io/exoscale-academy",
+        language: "Hugo",
+        maintainers_name: ["Vacant"],
+        link: ["#"],
+        repository: "https://github.com/layer5io/exoscale-academy",
+      },
+      {
+        project: "Layer5 Academy",
+        image: five,
+        site: "https://github.com/layer5io/layer5-academy",
+        language: "Hugo",
+        maintainers_name: ["Vacant"],
+        link: ["#"],
+        repository: "https://github.com/layer5io/layer5-academy",
       },
     ],
   },
@@ -181,7 +230,7 @@ export const repo_data = [
         maintainers_name: ["Vacant"],
         link: ["#"],
         description:
-          "A variety of interactive labs spanning different cloud native infrastructure. See https://layer5.io/learn/service-mesh-labs.",
+          "A variety of interactive labs spanning different cloud native infrastructure. See https://layer5.io/learn/kanvas-labs.",
         repository: "https://github.com/layer5io/service-mesh-labs",
       },
       {
